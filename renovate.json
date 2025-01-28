@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:recommended",
+    "docker:pinDigests",
+    "preview:dockerCompose",
+    "preview:dockerVersions",
+    "helpers:pinGitHubActionDigests",
+    ":configMigration",
+    ":pinDevDependencies",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":assignee(aliyome)",
+    ":reviewer(aliyome)"
+  ]
+}
