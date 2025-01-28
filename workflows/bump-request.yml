@@ -1,3 +1,5 @@
+# @see https://github.com/r7kamura/bump-request
+
 name: bump-request
 
 on:
